@@ -23,4 +23,7 @@
 
 
 - (instancetype)initWithDic:(NSDictionary *)dict;
+
+/** zhushi  */
+@property(strong,nonatomic)NSDictionary *dic;
 @end
