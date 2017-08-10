@@ -26,8 +26,7 @@ static NSString * const identifier = @"SortCell";
     if (self) {
         
         
-      
-//        _dataArray = [NSMutableArray array];
+    
         
         for (NSDictionary *dic in dataArray) {
             
@@ -39,7 +38,7 @@ static NSString * const identifier = @"SortCell";
 
         
         self.backgroundColor = [UIColor whiteColor];
-            // 上面高度44的描述栏(覆盖smallScrollView)
+        
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 12, 0, 0)];
         label.text = @"点击进入，长按拖动";
         label.font = [UIFont systemFontOfSize:15];
